@@ -18,7 +18,7 @@ export default function Home() {
       <p className="mt-5 max-w-prose text-zinc-800 sm:text-lg">
         AI will help you take care of your Ideas for new Content
       </p>
-    <Link  href="/dashboard" target="_blank" className={buttonVariants(
+    <Link  href="/dashboard" target="" className={buttonVariants(
       {size:"lg",
       className:"mt-5"}
     )}>
