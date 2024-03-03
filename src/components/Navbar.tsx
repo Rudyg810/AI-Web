@@ -40,7 +40,7 @@ function Navbar() {
           <div className="flex flex-1 items-stretch justify-start">
             <div className="flex flex-shrink-0 items-center">
               <Link href='/' className='flex z-40 font-semibold'>
-                <span className='ml-1'>Influencer AI</span>
+                <span className='ml-1'>Vidgrounds AI</span>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block">
