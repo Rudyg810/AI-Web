@@ -90,7 +90,9 @@ function Navbar() {
               <>
               <Link href='/register' className='flex z-40 sm:text-md text-sm'>
                 <span className='mr-1'>Register</span>
-                <div className="relative ml-5" ref={dropdownRef}>
+              </Link> 
+
+          <div className="relative ml-5" ref={dropdownRef}>
                   <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                     type="button" className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -110,8 +112,7 @@ function Navbar() {
                   )}
                 </div>
 
-              {/* </Link> 
-                <Link href='/login' className='flex sm:text-md z-40 text-sm'>
+                {/* <Link href='/login' className='flex sm:text-md z-40 text-sm'>
                 <span className='ml-1'>Login</span>
               </Link> */}
               </>
