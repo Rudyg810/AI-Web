@@ -89,7 +89,7 @@ function Navbar() {
             ) : (
               <>
               <Link href='/register' className='flex z-40 sm:text-md text-sm'>
-                <span className='mr-1'>Register</span>
+                 <span className='mr-1'>Register</span>
               </Link> 
 
           <div className="relative ml-5" ref={dropdownRef}>
